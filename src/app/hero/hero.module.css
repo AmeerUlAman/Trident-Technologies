@@ -1,13 +1,15 @@
 .bg{
-height: 100vh;
-width: 100vw;    
+height: auto;
+width: 100%;    
 
 margin: 0px;
 
 }
  
-.logocontainer{
-height:30px;
-width: 300px;
+ .herostmt{
 
-}
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }

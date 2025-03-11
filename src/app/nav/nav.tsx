@@ -10,7 +10,10 @@ return(
 <li>Why Us</li>
 <li>Contact Us</li>
 </nav>
-
+<div className={styles.sign}>
+<button className={styles.signup}>Get Started</button>    
+<button className={styles.login}>Log in</button>
+</div>
 
 </div>
 );

@@ -7,6 +7,11 @@ return(
         <div className={styles.bgc}></div>
  
 <Nav/>
+<hr />
+<div className={styles.herostmt}>
+<p></p>
+
+</div>
 
     </div>
 
