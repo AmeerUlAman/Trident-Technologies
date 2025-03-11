@@ -1,0 +1,17 @@
+.mnv{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.nv{
+display: flex;
+flex-direction: row;
+
+}
+.nv li{
+    text-decoration: none;
+    padding: 10px;
+    list-style-type: none;
+
+}
