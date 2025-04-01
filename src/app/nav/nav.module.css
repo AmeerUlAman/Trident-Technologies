@@ -37,14 +37,15 @@ text-decoration: underline;
 }
 
 .login {
-    background-color: rgb(33, 61, 160);
+    /* background-color: rgb(33, 61, 160); */
+  background-color: black;
     font-size: medium;
     color: white;
     padding: 10px;
     border-radius: 7px;
     margin: 5px;
     cursor: pointer;
-    border: 1px solid rgb(12, 35, 116);
+    /* border: 1px solid rgb(12, 35, 116); */
 }
 
 .login:hover {
