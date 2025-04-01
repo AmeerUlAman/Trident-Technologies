@@ -1,12 +1,19 @@
-import Image from "next/image";import styles from "./page.module.css";
 import Hero from "./hero/hero";
-import Services from "./service/services";
+import Steps from "./steps/steps";
+import WhatWeOffer from "./wwo/wwo";
+import FAQ from "./faq/faq";
+import Footer from "./footer/footer";
 
 export default function Home() {
   return (
     <div>
 <Hero/>
-<Services/>   
+{/* <Services/>    */}
+{/* <Steps/> */}
+<WhatWeOffer/>
+<Steps/>
+<FAQ/>
+<Footer/>
     </div>
 
 
