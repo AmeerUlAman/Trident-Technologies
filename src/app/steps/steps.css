@@ -1,0 +1,30 @@
+.steps-wrapper {
+  text-align: center;
+  padding: 40px;
+  background: #ffffff;
+}
+
+.steps-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.steps-subtext {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.step-icon {
+  font-size: 40px;
+  color: #024a00;
+  margin-bottom: 15px;
+}
