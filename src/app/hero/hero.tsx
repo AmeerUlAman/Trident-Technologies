@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <div className={styles.bg}>
       <Nav />
- <hr className={styles.h}/>
+ {/* <hr className={styles.h}/> */}
       <div className={styles.herostmt}>
         <div className={styles.herostmtbg}>
           <p className={styles.heading}>
@@ -30,9 +30,9 @@ const Hero = () => {
           <p className={styles.highlights}>
             Innovate. Automate. Elevate. – Your Vision, Our Code.
           </p>
-          <div>
+          <div className={styles.butfrex}>
             <button className={styles.cta}>Get a quote</button>
-            <button className={styles.cta2}>Learn more</button>
+            <p className={styles.cta2}>Learn more</p>
           </div>
         </div>
       </div>
